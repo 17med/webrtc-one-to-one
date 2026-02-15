@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0f0f13;
+  --surface: #1a1a24;
+  --surface-hover: #24243a;
+  --border: #2a2a3d;
+  --primary: #6c63ff;
+  --primary-hover: #5a52e0;
+  --danger: #ef4444;
+  --danger-hover: #dc2626;
+  --text: #e4e4ed;
+  --text-muted: #8888a4;
+  --success: #22c55e;
+  --warning: #f59e0b;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
